@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class primeiro_programa {
+    public static void main(String[]args){
+        Scanner recebe = new Scanner(System.in);
+        String nome;
+        int idade;
+        System.out.print("Digite seu nome:");
+        nome = recebe.next();
+        System.out.print("Digite sua idade:");
+        idade = recebe.nextInt();
+System.out.println("Seu nome é:"+nome.toString() +(idade));
+    }
+
+}
